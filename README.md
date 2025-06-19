@@ -98,11 +98,3 @@ Ajout de plus de données (skills, audits, tentatives, etc.)
 Projet réalisé dans le cadre de Zone01 — Normandie.
 
 Propulsé par React, GraphQL et du café ☕.
-
-yaml
-Copier
-Modifier
-
----
-
-Souhaites-tu aussi une **version en anglais** ? Ou que je te génère le `package.json` prêt pour déploiement GitHub Pages ou Netlify ?
