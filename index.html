@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Profil Zone01</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <div id="login">
+      <h2>Connexion</h2>
+      <input id="username" placeholder="Nom d'utilisateur ou Email" />
+      <input id="password" type="password" placeholder="Mot de passe" />
+      <button onclick="login()">Se connecter</button>
+      <p id="error" class="error"></p>
+    </div>
+
+    <div id="profile" class="hidden">
+      <button onclick="logout()">Déconnexion</button>
+      <h1 id="welcome"></h1>
+      <svg id="graph" width="500" height="200"></svg>
+    </div>
+  </div>
+
+  <script src="./src/App.js" type="module"></script>
+
+</body>
+</html>
